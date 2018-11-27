@@ -25,7 +25,7 @@ get_header(); ?>
 						<div class="page-content">
 							<p><?php echo("No se ha encontrado la localización. Prueba a buscar de nuevo"); ?></p>
 
-							<?php get_search_form(); ?>
+							<?php get_search_form(); ?> 
 
 							<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
